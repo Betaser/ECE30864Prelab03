@@ -15,6 +15,19 @@ int main() {
 
 		// Player
 		DrawRectangle(player_x, player_y, 100, 100, WHITE);
+
+		if (IsKeyDown(KEY_D)) {
+			player_x += 1;
+		}
+		if (IsKeyDown(KEY_A)) {
+			player_x -= 1;
+		}
+		if (IsKeyDown(KEY_W)) {
+			player_y_vel += 1;
+		}
+		if (IsKeyDown(KEY_S)) {
+			player_y_vel = -1;
+		}
 		EndDrawing();
 	}
 }

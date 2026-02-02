@@ -1,1 +1,3 @@
 A game where the player jumps around in 2D using WASD. They win when they touch the flag, but can die if they hit a spike.
+
+Also, there are mushroom platforms.

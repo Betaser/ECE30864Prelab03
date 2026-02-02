@@ -5,6 +5,8 @@ int main() {
 
 	while (!WindowShouldOpen()) {
 		BeginDrawing();
+
+		DrawRectangle(0, 400, 800, 200, BROWN);
 		EndDrawing();
 	}
 }
